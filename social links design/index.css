@@ -10,12 +10,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .container{
-    width:300px;
+    width:auto;
     background-color: hsl(0, 0%, 12%);
-    height: 470px;
+    height: auto;
     padding: 20px 10px;
     display: flex; 
     flex-direction: column;
@@ -26,10 +27,11 @@ body{
 }
 
 .container img{
-    width: 50px;
-    height:50px;
+    width: 60px;
+    height:60px;
     border-radius: 50px;
     margin-bottom: 5px;
+    margin-top: 10px;
     
 
 }
@@ -61,7 +63,7 @@ button{
     margin: 10px;
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
-    padding: 10px 70px;
+    padding: 10px 85px;
     font-size: 12px;
     border-radius: 5px;
     border: none;
